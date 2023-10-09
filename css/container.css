@@ -1,0 +1,90 @@
+.container {
+    min-width: 50%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+
+}
+
+.container h1 {
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+    color: #318ce0;
+}
+
+.lista-tarea{
+    width: 100%;
+}
+
+form {
+    display: flex;
+}
+
+input {
+    padding: 15px 10px;
+    width: 100%;
+    outline: none;
+    border: 5px solid rgb(21, 6, 70);
+    border-radius: 15px;
+}
+
+.btn-add {
+    padding: 5px 15px;
+    color: white;
+    border: none;
+    font-family: 'Amarante', cursive;
+    font-family: 'Borel', cursive;
+    font-family:cursive;
+    background-color: #4db1d1;
+    font-size: 1.4rem;
+    outline: none;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.empty {
+    color: rgb(76, 80, 80);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+}
+
+li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+.btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #ae1a8b;
+    color: grey;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2rem;
+
+}
+
+.btn-delete:hover {
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+
+.checklist{
+    width: 75px;
+    padding-bottom: 30px;
+    padding-left: 165px;
+}
